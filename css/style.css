@@ -133,7 +133,6 @@ header{
     display: inline-block;
     width: 952px;
     height: 125px;
-    font-family:'Comfortaa';
     color: #777;
     font-size: 18px;
     font-style: normal;
@@ -151,9 +150,26 @@ header{
     line-height: 34px; /* 188.889% */
 }
 
-.biggest{
-    float:right;
+.imgs-all{
+    align-items: center;
 }
 
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+    margin-left: 320px;
+}
 
+.biggest{
+    float: right;
+}
 
+.hero-img-1:not(:last-child){
+    padding-bottom: 32px;
+}
+
+.bi-bigges{
+    margin-right: 320px;
+}
