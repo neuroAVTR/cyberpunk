@@ -1,0 +1,159 @@
+body{
+    box-sizing: border-box;
+    height: 9999px;
+}
+
+a{
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+li , a , button {
+    text-decoration: none;
+}
+
+
+input:active, :hover, :focus {
+    outline: none;
+    outline-offset: none;
+}
+
+li , ul {
+    list-style: none;
+}
+
+
+header{
+    background-image: url('/img/bc.jpg');
+    width: 1920px;
+    height: 1000px;
+    padding-top: 20px;
+}
+
+.cyberpunk-logo{
+    position: relative;
+    margin: 0 605px 0 320px;
+    display: flex;
+    width: 296px;
+    height: 74px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.twenty-svg{
+    position: absolute;
+    left: 170px;
+    top: 53px;
+}
+
+.r-svg{
+    position: absolute;
+    right: 10px;
+    bottom: 53px;
+}
+
+
+.social-logo:not(:last-child){
+    margin-right: 20px;
+}
+
+.social-logo{
+    width: 28.364px;
+    height: 30px;
+}
+
+.last-child{
+    margin-top: 22px;
+    margin-right: 320px;
+}
+
+.learn-more{
+    margin-top: 554px;
+    margin-left: 976px;
+    overflow: hidden;
+    background-image: url('/img/yellow-bc.svg');
+    width: 624px;
+    height: 369px;
+    fill: #F8F200;
+}
+
+.header-text{
+    color: #000;
+    font-family: 'Comfortaa';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:  70px 70px 0 70px;
+}
+
+.button-header{
+    display: inline-flex;
+    padding: 19px 50px;
+    align-items: center;
+    gap: 10px;
+    color: #F8F200;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 166.667% */
+    background: #000;
+    margin: 25px 0 0 70px;
+}
+
+.hero{
+    margin:auto;
+    text-align: center;
+}
+
+.hero-h{
+    color: #000;
+    font-family: 'Caption';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 70px 604px 25px 302px;
+}
+
+.hero-text{
+    display: inline-block;
+    width: 952px;
+    height: 125px;
+    font-family:'Comfortaa';
+    color: #777;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin: 0 640px 70px 320px;
+}
+
+.videlen{
+    color: #52BEDC;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px; /* 188.889% */
+}
+
+.biggest{
+    float:right;
+}
+
+
+
