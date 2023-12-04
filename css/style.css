@@ -1,6 +1,5 @@
 body{
     box-sizing: border-box;
-    height: 9999px;
 }
 
 a{
@@ -388,3 +387,283 @@ input{
     justify-content:space-between;
 }
 
+
+.bottle{
+    margin-top: -5px;
+    width: 1920px;
+    height: 676px;
+    background: #F8F200;
+}
+
+
+.bottle-left-img-1{
+    width: 624px;
+    height: 430px;
+    margin: 70px 0 0 320px;
+}
+
+.bottle-img-box{
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    height: 80px;
+    margin: 26px 0 0 362px;
+}
+
+.abs-bottle{
+    position: absolute;
+    left: 419px;
+    top: 55px;
+}
+
+.bottle-left{
+    float: left;
+    margin-right: 32px;
+}
+
+.bottle-right-h{
+    color: #000;
+    font-family: 'Caption';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 560px;
+    margin: 0;
+}
+
+.bottle-right{
+    display: block;
+    width: 624px;
+    height: 606px;
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+.bottle-right-text-1{
+    display: inline-block;
+    width: 624px;
+    height: 125px;
+    color: #000;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 188.889% */
+    margin: 25px 0 0 0;
+}
+
+.bottle-right-icons{
+    height: 136px;
+    width: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px 15px 0 0px;
+    float: left;
+    color: #000;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottle-right-flex-text{
+    display: flex;
+    flex-direction: column;
+    height: 136px;
+    width: 348px;
+    margin-top: 15px;
+    color: #000;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottle-right-flex-text p{
+    margin-top: 15px;
+}
+
+.bottle-right-button{
+    display: inline-flex;
+    width: 194px;
+    height: 59px;
+    padding: 15px 50px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #000;
+    color: #F8F200;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 15px 750px 75px 0;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+
+
+.lampa-left{
+    background-image: url('/img/cyber-game.jpg');
+    width: 944px;
+    height: 717px;
+    float: left;
+}
+
+.lampa-right{
+    width: 976px;
+    height: 717px;
+    background: #000;
+    margin-left: 944px;
+    padding-top: 70px;
+}
+
+.lampa-right-h{
+    color: #FFF;
+    font-family: 'Comfortaa';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 624px;
+    margin: 0px 0 0 32px;
+}
+
+.lampa-text-1{
+    color: #52BEDC;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 25px 0 0 32px;
+}
+
+.lampa-img-box{
+    height: 136px;
+    width: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px 0 0 32px;
+    float: left;
+}
+
+
+.lampa-flex-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 136px;
+    width: 424px;
+    margin-top: 17px;
+    color: #FFF;
+    font-family: 'Caption';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lampa-flex-text p{
+    margin: 15px 0 0px 10px;
+}
+
+.lampa-text-2{
+    color: #52BEDC;
+    font-family: 'Caption';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 255px;
+    height: 28.15px;
+    flex-shrink: 0;
+    margin: 75px 0 0 32px;
+}
+
+.platforms{
+    overflow: hidden;
+    width: 309px;
+    height: 134px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.piter{
+    margin-left: 40px;
+}
+
+.steve{
+    margin-top: 45px;
+}
+
+.santa{
+    margin-right: 10px;
+}
+
+.pre-footer{
+    width: 1920px;
+    height: 100px;
+    background: #FFF;
+    padding-top: 13px;
+}
+
+.pre-footer-icons {
+    position: relative;
+    width: 501px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 320px;
+    float: left;
+    margin-right: 390px;
+}
+
+.pre-footer-absolute{
+    position: absolute;
+    left: 180px;
+    top:55px;
+}
+
+.pre-footer-text{
+    text-align: center;
+    width: 388px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+footer{
+    width: 1920px;
+    height: 40px;
+    text-align: center;
+    background: #000;
+    padding-top: 11px;
+}
+
+footer span{
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
